@@ -1,0 +1,15 @@
+.grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(10, 4vh);
+    grid-auto-columns: min-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+}

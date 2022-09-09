@@ -1,0 +1,27 @@
+<div class="title">
+    Plateau de Jeu
+</div>
+<div class="grid">
+    <app-cell *ngFor="let cell of board.cells[0]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[1]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[2]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[3]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[4]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[5]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[6]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[7]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[8]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[9]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[10]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[11]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[12]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[13]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[14]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[15]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[16]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[17]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[18]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[19]" [cell]="cell"></app-cell>
+    <app-cell *ngFor="let cell of board.cells[20]" [cell]="cell"></app-cell>
+</div>
+<div (window:keypress)="onKeydown($event)">
