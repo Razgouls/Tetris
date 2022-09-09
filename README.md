@@ -12,3 +12,6 @@ Step 4 :
   
 Step 5 :
   -> Launch navigator : http://localhost:4200
+
+
+Ce projet a été realisé dans le cadre d'un apprentissage Angular en 4 jours.
