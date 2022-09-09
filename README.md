@@ -15,3 +15,9 @@ Step 5 :
 
 
 Ce projet a été realisé dans le cadre d'un apprentissage Angular en 4 jours.
+
+gauche : 'a'
+droite : 'd'
+tourner : 'w'
+descendre : 's'
+plaquer contre le sol : 'space'
